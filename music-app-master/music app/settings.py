@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Viberr.urls'
+ROOT_URLCONF = 'music app.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Viberr.wsgi.application'
+WSGI_APPLICATION = 'music app.wsgi.application'
 
 
 # Database
